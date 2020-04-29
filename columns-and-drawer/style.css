@@ -68,7 +68,6 @@ main {
 
 .column {
   min-width: 205px;
-  width: 20%;
   max-width: 300px;
   height: 80%;
   display: flex;
