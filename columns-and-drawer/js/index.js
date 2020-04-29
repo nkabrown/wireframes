@@ -27,7 +27,7 @@ const placards = document.querySelectorAll('.placard');
 
 placards.forEach(placard => {
   placard.addEventListener('click', () => {
-    const container = document.getElementsByClassName('content')[0];
+    const container = document.getElementsByClassName('slider-container')[0];
     const drawer = document.getElementsByClassName('image-drawer')[0];
     const width = document.getElementsByClassName('column')[0].clientWidth + 10;
     const availableWidth = container.clientWidth;
