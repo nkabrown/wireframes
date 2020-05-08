@@ -2,7 +2,7 @@
 const layout = () => {
   // determine exact number of columns to fit in available space
   const availableWidth = document.getElementsByClassName('slider-view')[0].clientWidth;
-  // calculate remainder of dividing by min-width and the distribute across available columns
+  // calculate remainder of dividing by min-width and then distribute across available columns
   const remainder = availableWidth % 205;
   const num = Math.floor(availableWidth / 205);
   const adjustment = Math.floor(remainder / num);
